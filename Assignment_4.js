@@ -6,7 +6,7 @@ const matchHouses = (n)=>{
     else
     {
         let result;
-        result =(5*n)-1;
+        result =(5*n)+1;
         return result
     }
 }
