@@ -31,7 +31,7 @@ function armstrong_number(x) {
     sum += reminder ** numbertLength;
     temp = parseInt(temp / 10);
   }
-  if (sum == temp) {
+  if (sum == number1) {
     console.log(`${number1} is an Armstrong number`);
   } else {
     console.log(`${number1} is not an Armstrong number.`);
