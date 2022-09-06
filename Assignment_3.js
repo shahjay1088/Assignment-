@@ -23,7 +23,7 @@ pattern();
 
 function armstrong_number(x) {
   let number1 = x;
-  const numbertLength = x.length;
+  const numbertLength = x.toString().length;
   let sum = 0;
   let temp = number1;
   while (temp > 0) {
