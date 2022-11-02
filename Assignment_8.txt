@@ -1,0 +1,28 @@
+1. Can we put duplicate values in the set object ?
+-->NO
+
+let dupset = new Set();
+dupset.add(1);
+dupset.add(1);
+dupset.add(2);
+dupset.add(3);
+dupset.add(3);
+console.log(dupset);
+
+2. Write the syntax for
+a) Creating new set object
+	let dupset = new Set();
+b) Adding new element to set object
+	dupset.add(5).add("Add 5"); 
+c) Deleting element from set object
+	console.log(dupset.delete(5));
+3. Create a set object with four random numbers from 0 to 10. Check if this
+newly created set object has 8 in it. Use set object methods.
+
+var set = new Set();
+for (let i = 0; i < 4; i++) {
+  let num = Math.ceil(Math.random() * 10);
+  set.add(num);
+  console.log(num);
+}
+console.log(set.has(8));
